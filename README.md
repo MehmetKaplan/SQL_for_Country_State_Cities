@@ -1,10 +1,6 @@
 
 Good Old Style SQL for countries, states and cities information. Standard SQL syntax is used. It should work for all relational databases.
 
-# BE CAREFUL WHILE USING!!!!
-
-You have been warned: Although commented out, scripts contain drops table statements. If you want to uncomment, have your own responsibility!
-
 # Usage
 Run countries.sql, states.sql and cities.sql with your favorite SQL interpreter.
 
@@ -74,3 +70,6 @@ Initial script source was here: https://github.com/hiiamrohit/Countries-States-C
 
 # Warranty
 These scripts are provided as - is. Use them with your own responsibilities. The implementer does not accept any responsibility under any condition.
+
+## CAUTION
+Although commented out, scripts contain drop table statements. If you want to uncomment, have your own responsibility!
