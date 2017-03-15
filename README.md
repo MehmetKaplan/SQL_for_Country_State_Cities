@@ -9,7 +9,11 @@ You have been warned: Although commented out, scripts contain drops table statem
 Run countries.sql, states.sql and cities.sql with your favorite SQL interpreter.
 
 Ex (MySQL command line interpreter): 
-    mysql -u USERNAME -pPASSWORD -D DATABASENAME < states.sql 
+```{r, engine='bash', count_lines}
+mysql -u USERNAME -pPASSWORD -D DATABASENAME < countries.sql 
+mysql -u USERNAME -pPASSWORD -D DATABASENAME < states.sql 
+mysql -u USERNAME -pPASSWORD -D DATABASENAME < cities.sql 
+```
 
 ## Scenario 1
 
