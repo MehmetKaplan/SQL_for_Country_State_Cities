@@ -3,7 +3,7 @@ Good Old Style SQL for countries, states and cities information. Standard SQL sy
 
 # BE CAREFUL WHILE USING!!!!
 
-You have been warned: Although commented out, scripts contain drops table statements. If yıu want to uncomment, have your own responsibility!
+You have been warned: Although commented out, scripts contain drops table statements. If you want to uncomment, have your own responsibility!
 
 # Usage
 Run countries.sql, states.sql and cities.sql with your favorite SQL interpreter.
@@ -65,10 +65,12 @@ select *
 	where state_id = 3672;
 ```
 
+## Info
+
 The difference between scenario 1 and 2 is, USA has states but Turkey don't. So for Turkey "states" data becomes "cities" and "cities" data become "district". So while labeling, it is better to choose wording accordingly.
 
 # Credit
 Initial script source was here: https://github.com/hiiamrohit/Countries-States-Cities-database
 
 # Warranty
-These scripts are provided as - is. Use them with your own responsibilities. The implementer accept no responsibilities under any condition!!
+These scripts are provided as - is. Use them with your own responsibilities. The implementer does not accept any responsibility under any condition.
