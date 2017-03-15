@@ -71,4 +71,4 @@ The difference between scenario 1 and 2 is, USA has states but Turkey don't. So 
 Initial script source was here: https://github.com/hiiamrohit/Countries-States-Cities-database
 
 # Warranty
-These scripts are provided as - is. Use them with your own responsibilities. Under no circumstances the implementer accept any responsibilities!!
+These scripts are provided as - is. Use them with your own responsibilities. The implementer accept no responsibilities under any condition!!
