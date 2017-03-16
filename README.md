@@ -1,17 +1,17 @@
 
 Good Old Style SQL for countries, states and cities information. Standard SQL syntax is used. It should work for all relational databases.
 
-#BE CAREFUL WHILE USING!!!!
+# BE CAREFUL WHILE USING!!!!
 
 You have been warned: Although commented out, scripts contain drops table statements. If yıu want to uncomment, have your own responsibility!
 
-#Usage
+# Usage
 Run countries.sql, states.sql and cities.sql with your favorite SQL interpreter.
 
 Ex (MySQL command line interpreter): 
     mysql -u USERNAME -pPASSWORD -D DATABASENAME < states.sql 
 
-#Scenario 1
+## Scenario 1
 
 Assume your customer is from Boston.
 
@@ -37,7 +37,7 @@ select *
 
 4. And if she choose Boston, you'll have 44918 as your city id. Cheers!
 
-#Scenario 2
+## Scenario 2
 
 Assume your customer is from city Artvin of Turkey.
 
@@ -63,8 +63,8 @@ select *
 
 The difference between scenario 1 and 2 is, USA has states but Turkey don't. So for Turkey "states" data becomes "cities" and "cities" data become "district". So while labeling, it is better to choose wording accordingly.
 
-#Credit
+# Credit
 Initial script source was here: https://github.com/hiiamrohit/Countries-States-Cities-database
 
-#Warranty
+# Warranty
 These scripts are provided as - is. Use them with your own responsibilities. Under no circumstances the implementer accept any responsibilities!!
