@@ -16,24 +16,24 @@ Ex (MySQL command line interpreter):
 Assume your customer is from Boston.
 
 1. Normally you should show all countries to her to find United states.
-´´´SQL
+```SQL
 select *
 	from countries;
-´´´
+```
 
 2. From her choice it should be 231 as the country id. And you can bring the states of United States with following SQL:
-´´´SQL
+```SQL
 select *
 	from states
 	where country_id = 231;
-´´´
+```
 
 3. Now, she'll navigate to the state of Massachussets. And you'll show the cities of Massachussets with following SQL:
-´´´SQL
+```SQL
 select *
 	from cities
 	where state_id = 3943;
-´´´
+```
 
 4. And if she choose Boston, you'll have 44918 as your city id. Cheers!
 
@@ -42,24 +42,24 @@ select *
 Assume your customer is from city Artvin of Turkey.
 
 Normally you should show all countries to her to choose Turkey.
-´´´SQL
+```SQL
 select *
 	from countries;
-´´´
+```
 
 From her choice it should be 223 as the country id. And you can bring the cities with following SQL:
-´´´SQL
+```SQL
 select *
 	from states
 	where country_id = 223;
-´´´
+```
 
 Now, she'll navigate to the city of Artvin. And you'll show the districts of Artvin with following SQL:
-´´´SQL
+```SQL
 select *
 	from cities
 	where state_id = 3672;
-´´´
+```
 
 The difference between scenario 1 and 2 is, USA has states but Turkey don't. So for Turkey "states" data becomes "cities" and "cities" data become "district". So while labeling, it is better to choose wording accordingly.
 
